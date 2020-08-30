@@ -4,7 +4,6 @@ import { merge } from '@chakra-ui/utils';
 const systemFonts =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
 
-// 2. Extend the theme to include custom colors, fonts, etc.
 const theme = merge(baseTheme, {
   colors: {
     brand: {
