@@ -1,0 +1,46 @@
+{
+  "name": "feid.dev",
+  "version": "1.0.0",
+  "description": "Source code for https://feid.dev/",
+  "main": "N/A",
+  "repository": "https://github.com/frontend-id/feid.dev.git",
+  "author": "Resi Respati <resir014@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "format": "prettier --write \"./**/*.{ts,tsx}\"",
+    "lint": "eslint \"**/*.{ts,tsx}\" \"*.config.js\"",
+    "test": "npm run type-check && npm run lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-rc.3",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.54",
+    "@types/react": "^16.9.48",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  }
+}
