@@ -8,6 +8,10 @@
 # Static export path
 out/
 
+# npm lockfile
+# Since we use yarn, we can ignore this.
+package-lock.json
+
 # Logs
 logs
 *.log

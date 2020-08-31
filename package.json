@@ -13,9 +13,10 @@
     "export": "next export",
     "start": "next start",
     "format": "prettier --write \"./**/*.{ts,tsx}\"",
-    "lint": "eslint \"**/*.{ts,tsx}\" \"*.config.js\"",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
     "test": "npm run type-check && npm run lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "validate": "npm run lint && npm run type-check"
   },
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.3",
