@@ -24,7 +24,7 @@ const IndexPage: NextPage = () => {
         <AnimatedIntro />
         <Stack spacing={10} alignItems="center">
           <Text fontSize="2xl" verticalAlign="middle">
-            Frontend ID adalah sebuah komunitas teknologi untuk para pengembang antar muka di
+            Frontend Indonesia adalah sebuah komunitas teknologi untuk para pengembang antar muka di
             Indonesia, dari pengguna HTML, CSS, dan JavaScript hingga rangka kerja seperti{' '}
             <ReactIcon size="2em" />
             React, <VueIcon size="1em" /> Vue, <SvelteIcon size="1em" /> Svelte dan{' '}
@@ -38,7 +38,7 @@ const IndexPage: NextPage = () => {
               href="https://s.feid.dev/discord"
               isExternal
               display="inline-block"
-              title="Frontend ID Discord"
+              title="Frontend Indonesia Discord"
             >
               <Box bgColor="#7289DA" padding={3} borderRadius={6}>
                 <Stack direction="row" alignItems="center">
@@ -59,7 +59,7 @@ const IndexPage: NextPage = () => {
                     />
                   </svg>
                   <Text color="#ffffff" fontWeight="700" fontSize="lg">
-                    Join Frontend ID
+                    Join Frontend Indonesia
                   </Text>
                 </Stack>
               </Box>
@@ -68,7 +68,7 @@ const IndexPage: NextPage = () => {
         </Stack>
       </Box>
       <Box as="footer" display="flex" flexDirection="row-reverse" paddingY={4}>
-        <Text>Copyright &copy; {new Date().getFullYear()} Frontend ID</Text>
+        <Text>Copyright &copy; {new Date().getFullYear()} Frontend Indonesia</Text>
       </Box>
     </Box>
   );

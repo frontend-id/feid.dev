@@ -10,7 +10,7 @@ export default function Header() {
         <Link href="https://github.com/frontend-id" isExternal>
           GitHub
         </Link>
-        <Link href="https://twitter.com/feid.dev" isExternal>
+        <Link href="https://twitter.com/feid_dev" isExternal>
           Twitter
         </Link>
       </Stack>
