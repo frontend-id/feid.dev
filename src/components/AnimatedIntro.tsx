@@ -139,6 +139,15 @@ export default function AnimatedIntro() {
           y="50%"
           dominantBaseline="middle"
           textAnchor="middle"
+          data-accent-color="#b52e31"
+        >
+          Angular
+        </text>
+        <text
+          x="50%"
+          y="50%"
+          dominantBaseline="middle"
+          textAnchor="middle"
           data-accent-color="#C0392B"
         >
           Frontend ID
