@@ -26,10 +26,23 @@ const IndexPage: NextPage = () => {
           <Text fontSize="2xl" verticalAlign="middle">
             {'Frontend Indonesia adalah sebuah komunitas teknologi untuk pengembang antar muka di '}
             {'Indonesia, dari pengguna HTML, CSS, dan JavaScript hingga rangka kerja seperti '}
-            <InlineBox><ReactIcon size="2em" />React</InlineBox>{', '}
-            <InlineBox><VueIcon size="1em" /> Vue</InlineBox>{', '}
-            <InlineBox><SvelteIcon size="1em" /> Svelte</InlineBox>{' dan '}
-            <InlineBox><AngularIcon size="1.2em" /> Angular</InlineBox>.
+            <InlineBox>
+              <ReactIcon size="2em" />
+              React
+            </InlineBox>
+            {', '}
+            <InlineBox>
+              <VueIcon size="1em" /> Vue
+            </InlineBox>
+            {', '}
+            <InlineBox>
+              <SvelteIcon size="1em" /> Svelte
+            </InlineBox>
+            {' dan '}
+            <InlineBox>
+              <AngularIcon size="1.2em" /> Angular
+            </InlineBox>
+            .
           </Text>
           <Text fontSize="2xl">
             Bergabung sekarang untuk diskusi dan tanya jawab seputar teknologi dan pengembangan web.
@@ -76,7 +89,7 @@ const IndexPage: NextPage = () => {
 };
 
 function InlineBox(props: React.ComponentProps<typeof Box>) {
-  return <Box {...props} display="inline-block" />
+  return <Box {...props} display="inline-block" />;
 }
 
 export default IndexPage;
