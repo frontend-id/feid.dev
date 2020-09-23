@@ -2,6 +2,7 @@ import * as React from 'react';
 import { NextPage } from 'next';
 import { Box, Stack, Text, Link } from '@chakra-ui/core';
 import AnimatedIntro from '../components/AnimatedIntro';
+import Favicons from '../components/Favicons';
 import Header from '../components/Header';
 import SEO from '../components/SEO';
 import ReactIcon from '~/icons/React';
@@ -20,6 +21,7 @@ const IndexPage: NextPage = () => {
       flexDirection="column"
       p={4}
     >
+      <Favicons />
       <SEO />
       <Header />
       <Box as="main">
