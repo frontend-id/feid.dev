@@ -3,6 +3,7 @@ import { NextPage } from 'next';
 import { Box, Stack, Text, Link } from '@chakra-ui/core';
 import AnimatedIntro from '../components/AnimatedIntro';
 import Header from '../components/Header';
+import SEO from '../components/SEO';
 import ReactIcon from '~/icons/React';
 import VueIcon from '~/icons/Vue';
 import SvelteIcon from '~/icons/Svelte';
@@ -19,6 +20,7 @@ const IndexPage: NextPage = () => {
       flexDirection="column"
       p={4}
     >
+      <SEO />
       <Header />
       <Box as="main">
         <AnimatedIntro />
@@ -89,7 +91,7 @@ const IndexPage: NextPage = () => {
 };
 
 function InlineBox(props: React.ComponentProps<typeof Box>) {
-  return <Box {...props} display="inline-block" />;
+  return <Box {...props} as="span" display="inline-block" />;
 }
 
 export default IndexPage;
