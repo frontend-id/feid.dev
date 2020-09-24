@@ -11,7 +11,7 @@ export default function Favicons() {
       <link rel="manifest" href="/manifest.json" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#da532c" />
       <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#da532c" />
     </Head>
   );
 }
