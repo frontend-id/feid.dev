@@ -27,7 +27,7 @@ const IndexPage: NextPage = () => {
       <Box as="main">
         <AnimatedIntro />
         <Stack spacing={10} alignItems="center">
-          <Text fontSize="2xl" verticalAlign="middle">
+          <Text fontSize="2xl" lineHeight="3rem" verticalAlign="middle">
             {'Frontend Indonesia adalah sebuah komunitas teknologi untuk pengembang antar muka di '}
             {'Indonesia, dari pengguna HTML, CSS, dan JavaScript hingga rangka kerja seperti '}
             <InlineBox>
@@ -48,7 +48,7 @@ const IndexPage: NextPage = () => {
             </InlineBox>
             .
           </Text>
-          <Text fontSize="2xl">
+          <Text fontSize="2xl" lineHeight="3rem">
             Bergabung sekarang untuk diskusi dan tanya jawab seputar teknologi dan pengembangan web.
           </Text>
           <Box alignItems="center" justifyContent="center" paddingBottom={10}>
@@ -57,6 +57,7 @@ const IndexPage: NextPage = () => {
               isExternal
               display="inline-block"
               title="Frontend Indonesia Discord"
+              _hover={{ textDecoration: 'none' }}
             >
               <Box bgColor="#7289DA" padding={3} borderRadius={6}>
                 <Stack direction="row" alignItems="center">
