@@ -46,6 +46,7 @@ export default function AnimatedIntro() {
 
   return (
     <svg viewBox="0 0 600 200" style={{ width: '100%' }} height={200}>
+      <title>Frontend Indonesia</title>
       <style jsx global>
         {`
           .filled-heading {
